@@ -12,6 +12,8 @@
 		41B9D83429E5024A00766A61 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 41B9D83329E5024A00766A61 /* Experience.rcproject */; };
 		41B9D83629E5024B00766A61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41B9D83529E5024B00766A61 /* Assets.xcassets */; };
 		41B9D83929E5024B00766A61 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41B9D83829E5024B00766A61 /* Preview Assets.xcassets */; };
+		41B9D84029E5029600766A61 /* frame1.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 41B9D83F29E5029600766A61 /* frame1.usdz */; };
+		41B9D84229E504D600766A61 /* birb.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 41B9D84129E504D600766A61 /* birb.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		41B9D83329E5024A00766A61 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
 		41B9D83529E5024B00766A61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41B9D83829E5024B00766A61 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		41B9D83F29E5029600766A61 /* frame1.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = frame1.usdz; sourceTree = "<group>"; };
+		41B9D84129E504D600766A61 /* birb.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = birb.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				41B9D83129E5024A00766A61 /* ContentView.swift */,
 				41B9D83329E5024A00766A61 /* Experience.rcproject */,
 				41B9D83529E5024B00766A61 /* Assets.xcassets */,
+				41B9D84129E504D600766A61 /* birb.jpeg */,
+				41B9D83F29E5029600766A61 /* frame1.usdz */,
 				41B9D83729E5024B00766A61 /* Preview Content */,
 			);
 			path = "Test-Manipulating-3D-Texture-With-Image";
@@ -129,6 +135,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				41B9D83929E5024B00766A61 /* Preview Assets.xcassets in Resources */,
+				41B9D84229E504D600766A61 /* birb.jpeg in Resources */,
+				41B9D84029E5029600766A61 /* frame1.usdz in Resources */,
 				41B9D83629E5024B00766A61 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

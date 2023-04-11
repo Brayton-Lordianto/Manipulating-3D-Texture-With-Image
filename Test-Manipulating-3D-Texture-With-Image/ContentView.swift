@@ -20,11 +20,24 @@ struct ARViewContainer: UIViewRepresentable {
         
         let arView = ARView(frame: .zero)
         
-        // Load the "Box" scene from the "Experience" Reality File
-        let boxAnchor = try! Experience.loadBox()
+        let anchor = AnchorEntity()
+
+        
+        // Load the 3D model of the painting cover
+        let modelEntity: ModelEntity = try! ModelEntity.loadModel(named: "frame1")
+                
+        var material = SimpleMaterial()
+        material.color = .init(tint: .white.withAlphaComponent(0.999),
+                            texture: .init(try! .load(named: "birb.jpeg")))
+        material.metallic = .float(1.0)
+        material.roughness = .float(0.0)
+        modelEntity.model!.materials[0] = material
+        anchor.addChild(modelEntity)
+
+        print("DEBUG: \(modelEntity.model!.materials.count)")
         
         // Add the box anchor to the scene
-        arView.scene.anchors.append(boxAnchor)
+        arView.scene.anchors.append(anchor)
         
         return arView
         
